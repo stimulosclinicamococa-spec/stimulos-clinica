@@ -144,4 +144,15 @@ body {
 
 /* RODAPÉ */
 .footer {
-  backgr
+  background: #eee;
+  text-align: center;
+  padding: 14px;
+  color: #555;
+}
+
+/* RESPONSIVO */
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .info {
