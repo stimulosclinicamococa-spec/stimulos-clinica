@@ -6,82 +6,105 @@
   <title>Stímulos | Espaço Multidisciplinar</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-<header>
-  <h1>Stímulos</h1>
-  <p>Espaço Multidisciplinar • Mococa-SP</p>
-</header>
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <img src="logo-stimulos.jpg" alt="Stímulos - Espaço Multidisciplinar" class="logo">
+      <div class="brand-text">
+        <h1>Stímulos</h1>
+        <p>Espaço Multidisciplinar • Mococa-SP</p>
+      </div>
+    </div>
 
-<section class="container">
-
-  <!-- BLOCO INSTITUCIONAL -->
-  <div class="highlight">
-    <h2>📍 Endereço</h2>
-    <p>
-      R. Sete de Setembro, 178 – Centro<br>
-      Mococa – SP • CEP 13730-046
-    </p>
-    <div class="actions">
-      <a class="btn-map" href="https://www.google.com/maps/search/?api=1&query=R.+Sete+de+Setembro,+178+-+Centro,+Mococa+-+SP" target="_blank" rel="noopener">
+    <div class="top-actions">
+      <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=R.+Sete+de+Setembro,+178+-+Centro,+Mococa+-+SP" target="_blank" rel="noopener">
         📍 Como chegar
       </a>
-      <a class="btn-whats" href="https://wa.me/5519995757822" target="_blank" rel="noopener">
-        📞 WhatsApp Central
+      <a class="btn btn-whats" href="https://wa.me/5519995757822" target="_blank" rel="noopener">
+        💬 WhatsApp Central
       </a>
     </div>
   </div>
+</header>
 
-  <!-- AVALIAÇÕES -->
-  <div class="highlight">
-    <h2>📌 Avaliações do Neurodesenvolvimento</h2>
-    <p>Atendimento com profissionais especializadas. Clique abaixo para falar diretamente com a profissional desejada.</p>
-  </div>
+<main class="container">
 
-  <!-- PROFISSIONAIS -->
-  <div class="card">
-    <h3>Ana Laura</h3>
-    <p><strong>Especialidade(s):</strong> Neuropsicomotricidade • Neuropsicopedagogia</p>
-    <p class="tag">Avaliações do Neurodesenvolvimento</p>
-    <a href="https://wa.me/5519995757822" target="_blank" rel="noopener">📞 WhatsApp</a>
-  </div>
+  <section class="section">
+    <div class="panel">
+      <h2>📍 Endereço</h2>
+      <p>
+        R. Sete de Setembro, 178 – Centro<br>
+        Mococa – SP • CEP 13730-046
+      </p>
+    </div>
 
-  <div class="card">
-    <h3>Thainá</h3>
-    <p><strong>Especialidade(s):</strong> Psicologia Infantil</p>
-    <a href="https://wa.me/5519990002545" target="_blank" rel="noopener">📞 WhatsApp</a>
-  </div>
+    <div class="panel">
+      <h2>🧠 Avaliações do Neurodesenvolvimento</h2>
+      <p>Atendimento com profissionais especializadas. Clique no card para falar diretamente no WhatsApp.</p>
+    </div>
+  </section>
 
-  <div class="card">
-    <h3>Karen</h3>
-    <p><strong>Especialidade(s):</strong> Psicologia para Mulher</p>
-    <a href="https://wa.me/5511996787950" target="_blank" rel="noopener">📞 WhatsApp</a>
-  </div>
+  <section class="grid">
 
-  <div class="card">
-    <h3>Valéria</h3>
-    <p><strong>Especialidade(s):</strong> Psicologia Adulto • Psicologia Infantil</p>
-    <p class="tag">Avaliações do Neurodesenvolvimento</p>
-    <a href="https://wa.me/5519991246484" target="_blank" rel="noopener">📞 WhatsApp</a>
-  </div>
+    <article class="card">
+      <div class="card-head">
+        <h3>Ana Laura</h3>
+        <span class="badge">Avaliações</span>
+      </div>
+      <p class="meta"><strong>Especialidades:</strong> Neuropsicomotricidade • Neuropsicopedagogia</p>
+      <a class="btn btn-whats full" href="https://wa.me/5519995757822" target="_blank" rel="noopener">💬 WhatsApp</a>
+    </article>
 
-  <div class="card">
-    <h3>Juliana</h3>
-    <p><strong>Especialidade(s):</strong> Psicologia Infantojuvenil</p>
-    <a href="https://wa.me/5519995250813" target="_blank" rel="noopener">📞 WhatsApp</a>
-  </div>
+    <article class="card">
+      <div class="card-head">
+        <h3>Thainá</h3>
+      </div>
+      <p class="meta"><strong>Especialidade:</strong> Psicologia Infantil</p>
+      <a class="btn btn-whats full" href="https://wa.me/5519990002545" target="_blank" rel="noopener">💬 WhatsApp</a>
+    </article>
 
-  <div class="card">
-    <h3>Luciana</h3>
-    <p><strong>Especialidade(s):</strong> Neuropsicopedagogia • Distúrbios de Aprendizagem</p>
-    <p class="tag">Avaliações do Neurodesenvolvimento</p>
-    <a href="https://wa.me/5519992235390" target="_blank" rel="noopener">📞 WhatsApp</a>
-  </div>
+    <article class="card">
+      <div class="card-head">
+        <h3>Karen</h3>
+      </div>
+      <p class="meta"><strong>Especialidade:</strong> Psicologia para Mulher</p>
+      <a class="btn btn-whats full" href="https://wa.me/5511996787950" target="_blank" rel="noopener">💬 WhatsApp</a>
+    </article>
 
-</section>
+    <article class="card">
+      <div class="card-head">
+        <h3>Valéria</h3>
+        <span class="badge">Avaliações</span>
+      </div>
+      <p class="meta"><strong>Especialidades:</strong> Psicologia Adulto • Psicologia Infantil</p>
+      <a class="btn btn-whats full" href="https://wa.me/5519991246484" target="_blank" rel="noopener">💬 WhatsApp</a>
+    </article>
 
-<footer>
-  <p>© 2026 Stímulos • R. Sete de Setembro, 178 – Centro • Mococa/SP</p>
+    <article class="card">
+      <div class="card-head">
+        <h3>Juliana</h3>
+      </div>
+      <p class="meta"><strong>Especialidade:</strong> Psicologia Infantojuvenil</p>
+      <a class="btn btn-whats full" href="https://wa.me/5519995250813" target="_blank" rel="noopener">💬 WhatsApp</a>
+    </article>
+
+    <article class="card">
+      <div class="card-head">
+        <h3>Luciana</h3>
+        <span class="badge">Avaliações</span>
+      </div>
+      <p class="meta"><strong>Especialidades:</strong> Neuropsicopedagogia • Distúrbios de Aprendizagem</p>
+      <a class="btn btn-whats full" href="https://wa.me/5519992235390" target="_blank" rel="noopener">💬 WhatsApp</a>
+    </article>
+
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© 2026 Stímulos • Mococa/SP</p>
 </footer>
 
 </body>
